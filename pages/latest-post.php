@@ -34,15 +34,5 @@ if(mysqli_num_rows($query)> 0){
 	<?php pagination_number_home("post",6); ?>
 </div>
 <script src="script/jquery.min.js"></script>
-<script src="script/jquery.slides.min.js"></script>
 
-  <script>
-    $(function() {
-      $('#slides').slidesjs({
-        width: 940,
-        height: 528,
-        navigation: false
-      });
-    });
-  </script>
 

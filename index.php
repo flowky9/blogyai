@@ -16,7 +16,6 @@ $page = isset($_GET['page']) ? $_GET['page'] : false;
 	<title>Blog YAI</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-	<link rel="stylesheet" href="css/slide.css">
 </head>
 <body>
 	<div id="container">

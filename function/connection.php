@@ -5,7 +5,7 @@ $username = "root";
 $password = "";
 $db = "blogyai";
 
-$dbh = mysqli_connect($server,$username,$password,$db);
+$dbh = mysqli_connect($server,$username,$password,$db) OR die("Gagal Koneksi");
 
 
  ?>

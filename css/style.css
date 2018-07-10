@@ -1,0 +1,244 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+
+}
+
+/*** HEADER ***/
+
+#container {
+    width: 960px;
+    margin: auto;
+}
+
+#menu {border: 1px solid;padding: 10px;margin: 10px 0 10px 0; background-color: lightgray;}
+
+#menu a {
+    text-decoration: none;
+    color: #086aa5;
+    margin: 0 6px 0 0;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    color: #009688;
+}
+
+
+#header h1 {
+    margin: 10px;
+}
+
+/*** content ***/
+#content-wrapper {
+    height: auto;
+    overflow: hidden;
+}
+
+#post-wrapper {
+    float: left;
+    height: auto;
+    width: auto;
+}
+.post {
+  background-color: white;
+    width: 640px;
+    padding: 10px;
+    border: 1px solid;
+    margin-bottom: 18px;
+    box-shadow: 5px 5px #888;
+    overflow: hidden;
+}
+
+#sidebar-wrapper {
+    float: right;
+    width: auto;
+    height: auto;
+}
+
+.right-sidebar {
+  background-color: white;
+    padding: 10px;
+    width: 260px;
+    border: 1px solid;
+    margin-bottom: 14px;
+}
+#thumbnail-post img {
+    float: left;
+    margin: 0 5px 5px 0;
+}
+
+#thumbnail-post {
+    margin-top: 5px;
+}
+.post em {
+    font-size: 12px;
+}
+
+/*** COMMENT **/
+#comment {
+    width: 640px;
+    border: 1px solid;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#coment-thumbnail-post {
+    margin-top: 5px;
+}
+#comment-post {
+    width: 640px;
+    padding: 10px;
+    border: 1px solid;
+    margin-bottom: 18px;
+    box-shadow: 5px 5px #888;
+    overflow: hidden;
+}
+#comment-post em {
+    font-size: 11px;
+}
+.title-comment-post {
+    width: 640px;
+    padding: 10px;
+    border: 1px solid;
+    margin-bottom: 18px;
+    overflow: hidden;
+}
+#comment form {
+    margin:20px 0 20px 0;
+}
+#comment input[type="text"], input[type="email"] {
+    width: 350px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+}
+
+#comment textarea {
+    width: 360px;
+    margin: 5px 0 5px 0;
+}
+
+#comment input[type="submit"] {
+    background: black;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+#comment input[type="submit"]:hover {
+    background: blueviolet;
+    cursor: pointer;
+}
+
+/*** FOOTER **/
+
+#footer {
+  background-color: lightgray;
+    padding: 10px;
+    width: 960px;
+    border: 1px solid;
+    text-align:right;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.post label a {
+  text-decoration: none;
+  color: #086aa5;
+  font-size: 14px;
+}
+
+.post .category {
+    margin-left: 10px;
+    color: blue;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#pagination {
+  width: auto;
+  padding: 5px;
+  background-color: black;
+  display: inline-block;
+  margin: 15px 0px;
+}
+#pagination a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 5px;
+  width: auto;
+}
+
+#pagination a.active {
+    font-weight: bold;
+    color: yellow;
+    cursor: not-allowed;
+}
+
+#detail-post img {
+    max-width: 100%;
+}
+
+.form-input label {
+    display: block;
+}
+
+.form-input input {
+
+    width: 300px !important;
+    padding: 8px !important;
+}
+
+
+.form-input {
+  margin: 10px;
+}
+.form-input label {
+  font-weight: bold;
+}
+.form-input input[type=submit] {
+  width: 100px !important;
+  padding: 5px !important;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+
+input[type=radio] {
+  margin-left: 10px;
+}
+
+.form-input input[type=submit]:hover {
+  cursor: pointer;
+}
+
+.search input[type=submit]
+ {
+    border: none;
+    padding: 5px;
+    background: black;
+    color: white;
+}
+
+.search {
+  display: inline-block;
+}
+.search input[type=submit]:hover {
+  cursor: pointer;
+  background: orange;
+}
+
+.search input[type="text"] {
+    padding: 3px;
+}
+
+.post a {
+    text-decoration: none;
+}
